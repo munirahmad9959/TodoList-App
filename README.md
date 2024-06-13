@@ -71,7 +71,7 @@ To set up this project locally, follow these steps:
 
 ## Live Demo
 
-Check out the live demo of the app [here]([https://your-live-app-url.com](https://todo-list-app-wheat-sigma.vercel.app/)).
+Check out the live demo of the app [here](https://todo-list-app-wheat-sigma.vercel.app/).
 
 ## Contributing
 
