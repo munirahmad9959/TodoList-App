@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: white;
+}
+
+@layer utilities {
+  .custom-gradient {
+    background: rgb(255, 115, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 115, 0, 1) 0%,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 100, 121, 1) 0%,
+      rgba(9, 100, 121, 1) 32%,
+      rgba(9, 121, 93, 1) 74%
+    );
+  }
+}
+
+@layer components {
+  .custom-checkbox {
+    appearance: none;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .custom-checkbox:checked {
+    background-color: #34d397; /* Change the background color when checked */
+  }
+
+  .custom-checkbox:checked::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100% 4" xmlns="http://www.w3.org/2000/svg"><path d="M1 5 L4 8 L9 1" stroke="%23000" stroke-width="2" fill="none"/></svg>')
+      no-repeat center;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.Add {
+  border-radius: 25px;
+  padding: 5px 14px;
+}
