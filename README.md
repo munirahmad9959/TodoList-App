@@ -9,6 +9,7 @@ This project is a simple yet powerful Todo List application built using React an
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Live Demo](#live-demo)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -68,6 +69,10 @@ To set up this project locally, follow these steps:
 - Persistent storage using localStorage
 - Responsive and visually appealing UI
 
+## Live Demo
+
+Check out the live demo of the app [here](https://your-live-app-url.com).
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request.
@@ -75,7 +80,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, f
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes.
-4. Commit your changes. 
+4. Commit your changes.
 5. Push to the branch.
 6. Open a pull request.
 
