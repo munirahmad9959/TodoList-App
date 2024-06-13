@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  color: white;
+  color: #1a202c; /* Dark slate color */
 }
 
 @layer utilities {
@@ -23,7 +23,7 @@ body {
 @layer components {
   .custom-checkbox {
     appearance: none;
-    background-color: #fff;
+    background-color: #b6bac0; /* Light gray */
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -32,7 +32,7 @@ body {
   }
 
   .custom-checkbox:checked {
-    background-color: #34d397; /* Change the background color when checked */
+    background-color: #38b2ac; /* Teal */
   }
 
   .custom-checkbox:checked::after {
@@ -51,4 +51,15 @@ body {
 .Add {
   border-radius: 25px;
   padding: 5px 14px;
+}
+
+
+.created-tasks,
+.completed-task {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f3f4f6; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
 }
